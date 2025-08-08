@@ -69,3 +69,11 @@ npx git-removed-branches --prune
 ```sh
 reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
 ```
+
+# Commit git repo with custom commit author
+
+```
+[user]
+	email = anushibin007@gmail.com
+	name = Anu Shibin Joseph Raj
+```
