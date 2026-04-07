@@ -93,3 +93,10 @@ mvn spring-boot:run -Dspring.profiles.active=dev
   timeout /t 5 > NUL
 goto loop
 ```
+
+# pip to uv migration
+
+```bat
+uv init --bare
+uv add -r requirements.txt
+```
